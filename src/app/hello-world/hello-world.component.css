@@ -1,0 +1,56 @@
+/* hello-world.component.css */
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f1f1; 
+  min-height: 100vh;
+}
+h1 {
+    color: #2ecc71; 
+    /* A soothing green for the heading text */
+    font-size: 24px;
+  }
+  
+  p {
+    color: #555; /* A subdued gray for additional text */
+  }
+  
+  button {
+    background-color: #3498db; /* A calming blue for the button */
+    color: #fff; /* White text on the button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover for interaction */
+  }
+/* hello-world.component.css */
+button {
+    /* ... (previously defined styles) */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transform animation */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Slight scale-up on hover */
+  }
+/* hello-world.component.css */
+/* Default styles for small screens (mobile) */
+h1 {
+    font-size: 24px;
+  }
+  
+  /* Custom styles for screens with a minimum width of 768px (tablets and above) */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 32px; /* Increase font size for tablets and larger screens */
+    }
+  }
+      
